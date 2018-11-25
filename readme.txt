@@ -1,255 +1,258 @@
+ä»çœ‹é›ªä¸‹è½½çš„,ä¿å­˜ä¸€ä»½,æ–¹ä¾¿ä»¥åè‡ªå·±ä¿®æ”¹ä½¿ç”¨.
+
+
 //************************************************************************************
 //*
-//*          A¶ÜµçÄÔ·À»¤ http://www.3600safe.com/
+//*          Aç›¾ç”µè„‘é˜²æŠ¤ http://www.3600safe.com/
 //*        
-//*ËµÃ÷£º
-//*          ÖÕÓÚÓĞµãÆÇÁ¦¿ªÔ´ÁË¡£½÷ÒÔ´Ë±¡ÂëÏ×¸øÌìÏÂµÄÄ¸Ç×ÃÇ 2012-5-13¡£
+//*è¯´æ˜ï¼š
+//*          ç»ˆäºæœ‰ç‚¹é­„åŠ›å¼€æºäº†ã€‚è°¨ä»¥æ­¤è–„ç çŒ®ç»™å¤©ä¸‹çš„æ¯äº²ä»¬ 2012-5-13ã€‚
 //*
-//*ADÏÂ£º
-//*          www.3600safe.com ÊÇÒ»¸öÄÚºË°²È«±à³Ì¼¼ÊõÍøÕ¾£¬ÊÕ¼¯ÁË¸÷ÖÖÉñÅ£µÄ¼¼ÊõÎÄÕÂ£¬
-//*          ¸ãÄÚºË±à³ÌµÄ²»·Á°ÑËüµ±³ÉÒ»¸ö×ÊÁÏ¿â £º£©
+//*ADä¸‹ï¼š
+//*          www.3600safe.com æ˜¯ä¸€ä¸ªå†…æ ¸å®‰å…¨ç¼–ç¨‹æŠ€æœ¯ç½‘ç«™ï¼Œæ”¶é›†äº†å„ç§ç¥ç‰›çš„æŠ€æœ¯æ–‡ç« ï¼Œ
+//*          æå†…æ ¸ç¼–ç¨‹çš„ä¸å¦¨æŠŠå®ƒå½“æˆä¸€ä¸ªèµ„æ–™åº“ ï¼šï¼‰
 //*          
 //************************************************************************************
 
-ÎÄ¼şÁĞ±í£º
+æ–‡ä»¶åˆ—è¡¨ï¼š
 
 I:.
-©¦  3600safe.sln
-©¦  readme.txt
-©¦
-©À©¤3600safe
-©¦  ©¦  3600safe.aps
-©¦  ©¦  3600safe.cpp
-©¦  ©¦  3600safe.h
-©¦  ©¦  3600safe.rc
-©¦  ©¦  3600safe.vcxproj
-©¦  ©¦  3600safe.vcxproj.filters
-©¦  ©¦  3600safe.vcxproj.user
-©¦  ©¦  3600safeDoc.cpp
-©¦  ©¦  3600safeDoc.h
-©¦  ©¦  3600safeView.cpp
-©¦  ©¦  3600safeView.h
-©¦  ©¦  AboutDlg.cpp
-©¦  ©¦  AboutDlg.h
-©¦  ©¦  Atapi.cpp
-©¦  ©¦  Atapi.h
-©¦  ©¦  C3600Splash.cpp
-©¦  ©¦  C3600Splash.h
-©¦  ©¦  ClrListCtrl.cpp
-©¦  ©¦  ClrListCtrl.h
-©¦  ©¦  DLLModule.cpp
-©¦  ©¦  DLLModule.h
-©¦  ©¦  DpcTimer.cpp
-©¦  ©¦  DpcTimer.h
-©¦  ©¦  FilterDriver.cpp
-©¦  ©¦  FilterDriver.h
-©¦  ©¦  FsdHook.cpp
-©¦  ©¦  FsdHook.h
-©¦  ©¦  HipsLog.cpp
-©¦  ©¦  HipsLog.h
-©¦  ©¦  Install.cpp
-©¦  ©¦  Install.h
-©¦  ©¦  Kbdclass.cpp
-©¦  ©¦  Kbdclass.h
-©¦  ©¦  KernelHook.cpp
-©¦  ©¦  KernelHook.h
-©¦  ©¦  KernelModule.cpp
-©¦  ©¦  KernelModule.h
-©¦  ©¦  KernelThread.cpp
-©¦  ©¦  KernelThread.h
-©¦  ©¦  MainFrm.cpp
-©¦  ©¦  MainFrm.h
-©¦  ©¦  Md5.cpp
-©¦  ©¦  Md5.h
-©¦  ©¦  Mouclass.cpp
-©¦  ©¦  Mouclass.h
-©¦  ©¦  Nsiproxy.cpp
-©¦  ©¦  Nsiproxy.h
-©¦  ©¦  ntdll.lib
-©¦  ©¦  ObjectHook.cpp
-©¦  ©¦  ObjectHook.h
-©¦  ©¦  Process.cpp
-©¦  ©¦  Process.h
-©¦  ©¦  ProcessHandle.cpp
-©¦  ©¦  ProcessHandle.h
-©¦  ©¦  ProcessThread.cpp
-©¦  ©¦  ProcessThread.h
-©¦  ©¦  ReadMe.txt
-©¦  ©¦  resource.h
-©¦  ©¦  Services.cpp
-©¦  ©¦  Services.h
-©¦  ©¦  ShadowSSDT.cpp
-©¦  ©¦  ShadowSSDT.h
-©¦  ©¦  SSDT.cpp
-©¦  ©¦  SSDT.h
-©¦  ©¦  stdafx.cpp
-©¦  ©¦  stdafx.h
-©¦  ©¦  SubModule.cpp
-©¦  ©¦  SubModule.h
-©¦  ©¦  SystemNotify.cpp
-©¦  ©¦  SystemNotify.h
-©¦  ©¦  SystemThread.cpp
-©¦  ©¦  SystemThread.h
-©¦  ©¦  targetver.h
-©¦  ©¦  Tcpip.cpp
-©¦  ©¦  Tcpip.h
-©¦  ©¦  TcpView.cpp
-©¦  ©¦  TcpView.h
-©¦  ©¦  uninstall360.cpp
-©¦  ©¦  uninstall360.h
-©¦  ©¦  UnloadDllModule.h
-©¦  ©¦  UserImages.bmp
-©¦  ©¦  Windows2003SP1_CN.h
-©¦  ©¦  Windows2003SP2_CN.h
-©¦  ©¦  Windows7Home_CN.h
-©¦  ©¦  Windows7SP1_CN.h
-©¦  ©¦  WindowsXPSP2_CN.h
-©¦  ©¦  WindowsXPSP3_CN.h
-©¦  ©¦
-©¦  ©À©¤Release
-©¦  ©¸©¤res
-©¦          3600safe - ¸±±¾.ico
-©¦          3600safe.bmp
-©¦          3600safe.ico
-©¦          Dispatch.ico
-©¦          GDriver.ico
-©¦          Hips.ico
-©¦          KernelHook.ico
-©¦          KernelModule.ico
-©¦          KernelThread.ico
-©¦          My3600safe.rc2
-©¦          Process.ico
-©¦          ring3.ico
-©¦          Services.ico
-©¦          Tcpview.ico
-©¦          Toolbar.bmp
-©¦          Toolbar256.bmp
-©¦
-©À©¤bin
-©¦  ©¦  A-Protect.exe
-©¦  ©¦  A-Protect.txt
-©¦  ©¦
-©¦  ©¸©¤A-ProtectSDK
-©¦      ©¦  readme.txt
-©¦      ©¦
-©¦      ©À©¤example
-©¦      ©¦      A-ProtectConsole.cpp
-©¦      ©¦      A-ProtectConsole.h
-©¦      ©¦      A-ProtectConsole.sln
-©¦      ©¦      A-ProtectConsole.vcxproj
-©¦      ©¦      Install.cpp
-©¦      ©¦      Install.h
-©¦      ©¦      KernelModule.h
-©¦      ©¦      ntdll.lib
-©¦      ©¦
-©¦      ©¸©¤include
-©¦              A-ProtectSDK.h
-©¦
-©¸©¤Driver
-    ©¦  AntiInlineHook.c
-    ©¦  AntiInlineHook.h
-    ©¦  Atapi.c
-    ©¦  Atapi.h
-    ©¦  buildchk_win7_x86.log
-    ©¦  buildchk_win7_x86.wrn
-    ©¦  Common.h
-    ©¦  Control.c
-    ©¦  Control.h
-    ©¦  DeleteFile.c
-    ©¦  DeleteFile.h
-    ©¦  DpcTimer.c
-    ©¦  DpcTimer.h
-    ©¦  DriverHips.c
-    ©¦  DriverHips.h
-    ©¦  drvcommon.h
-    ©¦  drvversion.h
-    ©¦  drvversion.rc
-    ©¦  dump.c
-    ©¦  dump.h
-    ©¦  file.c
-    ©¦  file.h
-    ©¦  FileSystem.c
-    ©¦  FileSystem.h
-    ©¦  Fixrelocation.c
-    ©¦  Fixrelocation.h
-    ©¦  Function.c
-    ©¦  Function.h
-    ©¦  InitWindowsVersion.c
-    ©¦  InitWindowsVersion.h
-    ©¦  InlineHook.c
-    ©¦  InlineHook.h
-    ©¦  kbdclass.c
-    ©¦  kbdclass.h
-    ©¦  KernelFilterDriver.c
-    ©¦  KernelFilterDriver.h
-    ©¦  KernelHookCheck.c
-    ©¦  KernelHookCheck.h
-    ©¦  KernelReload.c
-    ©¦  KernelReload.h
-    ©¦  KernelThread.c
-    ©¦  KernelThread.h
-    ©¦  KillProcess.c
-    ©¦  KillProcess.h
-    ©¦  ldasm.c
-    ©¦  ldasm.h
-    ©¦  libdasm.c
-    ©¦  libdasm.h
-    ©¦  makefile
-    ©¦  Mouclass.c
-    ©¦  Mouclass.h
-    ©¦  NetworkDefense.c
-    ©¦  NetworkDefense.h
-    ©¦  nsiproxy.c
-    ©¦  nsiproxy.h
-    ©¦  Ntfs.c
-    ©¦  Ntfs.h
-    ©¦  ntifs.h
-    ©¦  ntos.c
-    ©¦  ntos.h
-    ©¦  ObjectHookCheck.c
-    ©¦  ObjectHookCheck.h
-    ©¦  Port.c
-    ©¦  Port.h
-    ©¦  Process.c
-    ©¦  Process.h
-    ©¦  ProcessModule.c
-    ©¦  ProcessModule.h
-    ©¦  Protect.c
-    ©¦  Protect.h
-    ©¦  ReLoadSSDTTableHook.c
-    ©¦  ReLoadSSDTTableHook.h
-    ©¦  SafeSystem.c
-    ©¦  SafeSystem.h
-    ©¦  SafeSystem.sln
-    ©¦  SafeSystem.vcxproj
-    ©¦  SafeSystem.vcxproj.filters
-    ©¦  SafeSystem.vcxproj.user
-    ©¦  SDTShadowRestore.h
-    ©¦  Services.c
-    ©¦  Services.h
-    ©¦  ShadowSSDT.c
-    ©¦  ShadowSSDT.h
-    ©¦  sources
-    ©¦  SSDT.c
-    ©¦  SSDT.h
-    ©¦  SysModule.c
-    ©¦  SysModule.h
-    ©¦  SystemNotify.c
-    ©¦  SystemNotify.h
-    ©¦  SystemThread.c
-    ©¦  SystemThread.h
-    ©¦  tables.h
-    ©¦  Tcpip.c
-    ©¦  Tcpip.h
-    ©¦  win32k.c
-    ©¦  win32k.h
-    ©¦
-    ©À©¤objchk_win7_x86
-    ©¦  ©¸©¤i386
-    ©¦          a.bat
-    ©¦          bin2c.exe
-    ©¦
-    ©¸©¤Release
+â”‚  3600safe.sln
+â”‚  readme.txt
+â”‚
+â”œâ”€3600safe
+â”‚  â”‚  3600safe.aps
+â”‚  â”‚  3600safe.cpp
+â”‚  â”‚  3600safe.h
+â”‚  â”‚  3600safe.rc
+â”‚  â”‚  3600safe.vcxproj
+â”‚  â”‚  3600safe.vcxproj.filters
+â”‚  â”‚  3600safe.vcxproj.user
+â”‚  â”‚  3600safeDoc.cpp
+â”‚  â”‚  3600safeDoc.h
+â”‚  â”‚  3600safeView.cpp
+â”‚  â”‚  3600safeView.h
+â”‚  â”‚  AboutDlg.cpp
+â”‚  â”‚  AboutDlg.h
+â”‚  â”‚  Atapi.cpp
+â”‚  â”‚  Atapi.h
+â”‚  â”‚  C3600Splash.cpp
+â”‚  â”‚  C3600Splash.h
+â”‚  â”‚  ClrListCtrl.cpp
+â”‚  â”‚  ClrListCtrl.h
+â”‚  â”‚  DLLModule.cpp
+â”‚  â”‚  DLLModule.h
+â”‚  â”‚  DpcTimer.cpp
+â”‚  â”‚  DpcTimer.h
+â”‚  â”‚  FilterDriver.cpp
+â”‚  â”‚  FilterDriver.h
+â”‚  â”‚  FsdHook.cpp
+â”‚  â”‚  FsdHook.h
+â”‚  â”‚  HipsLog.cpp
+â”‚  â”‚  HipsLog.h
+â”‚  â”‚  Install.cpp
+â”‚  â”‚  Install.h
+â”‚  â”‚  Kbdclass.cpp
+â”‚  â”‚  Kbdclass.h
+â”‚  â”‚  KernelHook.cpp
+â”‚  â”‚  KernelHook.h
+â”‚  â”‚  KernelModule.cpp
+â”‚  â”‚  KernelModule.h
+â”‚  â”‚  KernelThread.cpp
+â”‚  â”‚  KernelThread.h
+â”‚  â”‚  MainFrm.cpp
+â”‚  â”‚  MainFrm.h
+â”‚  â”‚  Md5.cpp
+â”‚  â”‚  Md5.h
+â”‚  â”‚  Mouclass.cpp
+â”‚  â”‚  Mouclass.h
+â”‚  â”‚  Nsiproxy.cpp
+â”‚  â”‚  Nsiproxy.h
+â”‚  â”‚  ntdll.lib
+â”‚  â”‚  ObjectHook.cpp
+â”‚  â”‚  ObjectHook.h
+â”‚  â”‚  Process.cpp
+â”‚  â”‚  Process.h
+â”‚  â”‚  ProcessHandle.cpp
+â”‚  â”‚  ProcessHandle.h
+â”‚  â”‚  ProcessThread.cpp
+â”‚  â”‚  ProcessThread.h
+â”‚  â”‚  ReadMe.txt
+â”‚  â”‚  resource.h
+â”‚  â”‚  Services.cpp
+â”‚  â”‚  Services.h
+â”‚  â”‚  ShadowSSDT.cpp
+â”‚  â”‚  ShadowSSDT.h
+â”‚  â”‚  SSDT.cpp
+â”‚  â”‚  SSDT.h
+â”‚  â”‚  stdafx.cpp
+â”‚  â”‚  stdafx.h
+â”‚  â”‚  SubModule.cpp
+â”‚  â”‚  SubModule.h
+â”‚  â”‚  SystemNotify.cpp
+â”‚  â”‚  SystemNotify.h
+â”‚  â”‚  SystemThread.cpp
+â”‚  â”‚  SystemThread.h
+â”‚  â”‚  targetver.h
+â”‚  â”‚  Tcpip.cpp
+â”‚  â”‚  Tcpip.h
+â”‚  â”‚  TcpView.cpp
+â”‚  â”‚  TcpView.h
+â”‚  â”‚  uninstall360.cpp
+â”‚  â”‚  uninstall360.h
+â”‚  â”‚  UnloadDllModule.h
+â”‚  â”‚  UserImages.bmp
+â”‚  â”‚  Windows2003SP1_CN.h
+â”‚  â”‚  Windows2003SP2_CN.h
+â”‚  â”‚  Windows7Home_CN.h
+â”‚  â”‚  Windows7SP1_CN.h
+â”‚  â”‚  WindowsXPSP2_CN.h
+â”‚  â”‚  WindowsXPSP3_CN.h
+â”‚  â”‚
+â”‚  â”œâ”€Release
+â”‚  â””â”€res
+â”‚          3600safe - å‰¯æœ¬.ico
+â”‚          3600safe.bmp
+â”‚          3600safe.ico
+â”‚          Dispatch.ico
+â”‚          GDriver.ico
+â”‚          Hips.ico
+â”‚          KernelHook.ico
+â”‚          KernelModule.ico
+â”‚          KernelThread.ico
+â”‚          My3600safe.rc2
+â”‚          Process.ico
+â”‚          ring3.ico
+â”‚          Services.ico
+â”‚          Tcpview.ico
+â”‚          Toolbar.bmp
+â”‚          Toolbar256.bmp
+â”‚
+â”œâ”€bin
+â”‚  â”‚  A-Protect.exe
+â”‚  â”‚  A-Protect.txt
+â”‚  â”‚
+â”‚  â””â”€A-ProtectSDK
+â”‚      â”‚  readme.txt
+â”‚      â”‚
+â”‚      â”œâ”€example
+â”‚      â”‚      A-ProtectConsole.cpp
+â”‚      â”‚      A-ProtectConsole.h
+â”‚      â”‚      A-ProtectConsole.sln
+â”‚      â”‚      A-ProtectConsole.vcxproj
+â”‚      â”‚      Install.cpp
+â”‚      â”‚      Install.h
+â”‚      â”‚      KernelModule.h
+â”‚      â”‚      ntdll.lib
+â”‚      â”‚
+â”‚      â””â”€include
+â”‚              A-ProtectSDK.h
+â”‚
+â””â”€Driver
+    â”‚  AntiInlineHook.c
+    â”‚  AntiInlineHook.h
+    â”‚  Atapi.c
+    â”‚  Atapi.h
+    â”‚  buildchk_win7_x86.log
+    â”‚  buildchk_win7_x86.wrn
+    â”‚  Common.h
+    â”‚  Control.c
+    â”‚  Control.h
+    â”‚  DeleteFile.c
+    â”‚  DeleteFile.h
+    â”‚  DpcTimer.c
+    â”‚  DpcTimer.h
+    â”‚  DriverHips.c
+    â”‚  DriverHips.h
+    â”‚  drvcommon.h
+    â”‚  drvversion.h
+    â”‚  drvversion.rc
+    â”‚  dump.c
+    â”‚  dump.h
+    â”‚  file.c
+    â”‚  file.h
+    â”‚  FileSystem.c
+    â”‚  FileSystem.h
+    â”‚  Fixrelocation.c
+    â”‚  Fixrelocation.h
+    â”‚  Function.c
+    â”‚  Function.h
+    â”‚  InitWindowsVersion.c
+    â”‚  InitWindowsVersion.h
+    â”‚  InlineHook.c
+    â”‚  InlineHook.h
+    â”‚  kbdclass.c
+    â”‚  kbdclass.h
+    â”‚  KernelFilterDriver.c
+    â”‚  KernelFilterDriver.h
+    â”‚  KernelHookCheck.c
+    â”‚  KernelHookCheck.h
+    â”‚  KernelReload.c
+    â”‚  KernelReload.h
+    â”‚  KernelThread.c
+    â”‚  KernelThread.h
+    â”‚  KillProcess.c
+    â”‚  KillProcess.h
+    â”‚  ldasm.c
+    â”‚  ldasm.h
+    â”‚  libdasm.c
+    â”‚  libdasm.h
+    â”‚  makefile
+    â”‚  Mouclass.c
+    â”‚  Mouclass.h
+    â”‚  NetworkDefense.c
+    â”‚  NetworkDefense.h
+    â”‚  nsiproxy.c
+    â”‚  nsiproxy.h
+    â”‚  Ntfs.c
+    â”‚  Ntfs.h
+    â”‚  ntifs.h
+    â”‚  ntos.c
+    â”‚  ntos.h
+    â”‚  ObjectHookCheck.c
+    â”‚  ObjectHookCheck.h
+    â”‚  Port.c
+    â”‚  Port.h
+    â”‚  Process.c
+    â”‚  Process.h
+    â”‚  ProcessModule.c
+    â”‚  ProcessModule.h
+    â”‚  Protect.c
+    â”‚  Protect.h
+    â”‚  ReLoadSSDTTableHook.c
+    â”‚  ReLoadSSDTTableHook.h
+    â”‚  SafeSystem.c
+    â”‚  SafeSystem.h
+    â”‚  SafeSystem.sln
+    â”‚  SafeSystem.vcxproj
+    â”‚  SafeSystem.vcxproj.filters
+    â”‚  SafeSystem.vcxproj.user
+    â”‚  SDTShadowRestore.h
+    â”‚  Services.c
+    â”‚  Services.h
+    â”‚  ShadowSSDT.c
+    â”‚  ShadowSSDT.h
+    â”‚  sources
+    â”‚  SSDT.c
+    â”‚  SSDT.h
+    â”‚  SysModule.c
+    â”‚  SysModule.h
+    â”‚  SystemNotify.c
+    â”‚  SystemNotify.h
+    â”‚  SystemThread.c
+    â”‚  SystemThread.h
+    â”‚  tables.h
+    â”‚  Tcpip.c
+    â”‚  Tcpip.h
+    â”‚  win32k.c
+    â”‚  win32k.h
+    â”‚
+    â”œâ”€objchk_win7_x86
+    â”‚  â””â”€i386
+    â”‚          a.bat
+    â”‚          bin2c.exe
+    â”‚
+    â””â”€Release
 
 //********************************************************************
 //end
